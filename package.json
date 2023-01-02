@@ -1,8 +1,12 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
+  "type": "module",
   "description": "[![Actions Status](https://github.com/dariooreo/js-starter-project-44/workflows/hexlet-check/badge.svg)](https://github.com/dariooreo/js-starter-project-44/actions)",
   "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/dariooreo/js-starter-project-44/issues"
   },
-  "homepage": "https://github.com/dariooreo/js-starter-project-44#readme"
+  "homepage": "https://github.com/dariooreo/js-starter-project-44#readme",
+  "dependencies": {
+    "make": "^0.8.1"
+  }
 }
