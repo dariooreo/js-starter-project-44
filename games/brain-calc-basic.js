@@ -5,7 +5,7 @@ export default () => {
 
   const f = () => {
     const simbol = '+-*';
-    const randomSimbol = simbol[Math.round(Math.random() * 3)];
+    const randomSimbol = simbol[Math.floor(Math.random() * 3)];
     const number1 = Math.round(Math.random() * 100);
     const number2 = Math.round(Math.random() * 10);
 

@@ -16,6 +16,7 @@ export default (textOfGame, f) => {
     for (let i = 1; i < 4; i += 1) {
       const correctAnswer = f();
       const answer = readlineSync.question('Your answer:');
+
       if (correctAnswer === answer) {
         console.log('Correct!');
       } else if (correctAnswer !== answer) {
