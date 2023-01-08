@@ -11,7 +11,7 @@ export default () => {
     } else if (question % 2 !== 0) {
       correctAnswer = 'no';
     }
-    console.log(question);
+    console.log(`Question: ${question}`);
     return correctAnswer;
   };
 
