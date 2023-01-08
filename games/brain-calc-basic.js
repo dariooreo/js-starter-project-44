@@ -9,7 +9,7 @@ export default () => {
     const number1 = Math.round(Math.random() * 100);
     const number2 = Math.round(Math.random() * 10);
 
-    const question = `${number1}${randomSimbol}${number2}`;
+    const question = `${number1} ${randomSimbol} ${number2}`;
 
     let correctAnswer;
     if (randomSimbol === '+') {
