@@ -20,7 +20,7 @@ export default (textOfGame, f) => {
       if (correctAnswer === answer) {
         console.log('Correct!');
       } else if (correctAnswer !== answer) {
-        console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer}.\nLet's try again, ${userName}!`);
+        console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`);
         return;
       }
       if (i === 3) {
