@@ -52,7 +52,7 @@ export default () => {
     const number2 = Math.round(Math.random() * 50);
 
     const question = `${number1} ${number2}`;
-    console.log(question);
+    console.log(`Question: ${question}`);
 
     // ЕСЛИ ПРИХОДИТ 0 ИЛИ 1
     if (number1 === 0 || number2 === 0) {

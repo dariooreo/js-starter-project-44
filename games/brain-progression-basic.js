@@ -23,7 +23,7 @@ export default () => {
 
     stack[index] = '..'; // замена элемента
     const question = stack.join(' '); // преобразование массива в строку
-    console.log(question);
+    console.log(`Question: ${question}`);
     return `${correctAnswer}`;
   };
 

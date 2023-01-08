@@ -7,7 +7,7 @@ export default () => {
     const number = Math.floor(Math.random() * 100);
 
     const question = number;
-    console.log(question);
+    console.log(`Question: ${question}`);
     let correctAnswer;
     if (number === 0 || number === 1) {
       correctAnswer = 'no';

@@ -20,7 +20,7 @@ export default () => {
       correctAnswer = `${number1 * number2}`;
     }
 
-    console.log(question);
+    console.log(`Question: ${question}`);
 
     return correctAnswer;
   };
